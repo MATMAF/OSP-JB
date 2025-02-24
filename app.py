@@ -41,7 +41,7 @@ def check_table(table, last_name, first_name):
         if item["last_name"] == last_name and item["first_name"] == first_name:
             print(item["status"])
         else:
-            print("User not found on table.")
+            print("User not found on the table.")
 
 # Main loop of the code
 check_table(get_page(config.url), config.last_name, config.first_name)
